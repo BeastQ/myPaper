@@ -1,0 +1,7 @@
+----------------------------------------------------
+op差异度是1.121582
+oc差异度是1.261963
+RelatDiff origion&print差异度为0的比例是0.445068
+RelatDiff origion&copy差异度为0的比例是0.390137
+RelatDiff origion&print差异度为3的比例是0.198486
+RelatDiff origion&copy差异度为3的比例是0.230225

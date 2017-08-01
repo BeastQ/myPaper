@@ -1,0 +1,735 @@
+---------------------------------------------------------------------------------------------
+待检测图像模式:RGB 待检测图像格式:.jpg 水印长度: 128
+算法参数: BitDepth: 24.00  vlen: 32.00  p: 2.00  delta: 0.33
+子图信息: 在原图中的位置:rowStart:66 rowEnd:515 colStart:66 colEnd:515,大小为:450 * 450
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=061，col=061的图的相关信息及性能参数:
+第 1 通道：psnr: 30.61 ber: 0.41 corr: 0.77 numOfNotSame: 53
+第 2 通道：psnr: 30.65 ber: 0.43 corr: 0.76 numOfNotSame: 55
+第 3 通道：psnr: 30.66 ber: 0.41 corr: 0.77 numOfNotSame: 52
+平均信息 ：psnr: 30.64 ber: 0.42 corr: 0.76 numOfNotSame: 53
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=061，col=062的图的相关信息及性能参数:
+第 1 通道：psnr: 30.96 ber: 0.50 corr: 0.71 numOfNotSame: 64
+第 2 通道：psnr: 31.01 ber: 0.50 corr: 0.71 numOfNotSame: 64
+第 3 通道：psnr: 31.02 ber: 0.51 corr: 0.70 numOfNotSame: 65
+平均信息 ：psnr: 31.00 ber: 0.50 corr: 0.71 numOfNotSame: 64
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=061，col=063的图的相关信息及性能参数:
+第 1 通道：psnr: 31.41 ber: 0.47 corr: 0.73 numOfNotSame: 60
+第 2 通道：psnr: 31.48 ber: 0.50 corr: 0.71 numOfNotSame: 64
+第 3 通道：psnr: 31.50 ber: 0.48 corr: 0.72 numOfNotSame: 62
+平均信息 ：psnr: 31.46 ber: 0.48 corr: 0.72 numOfNotSame: 62
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=061，col=064的图的相关信息及性能参数:
+第 1 通道：psnr: 32.00 ber: 0.50 corr: 0.71 numOfNotSame: 64
+第 2 通道：psnr: 32.06 ber: 0.50 corr: 0.71 numOfNotSame: 64
+第 3 通道：psnr: 32.08 ber: 0.50 corr: 0.71 numOfNotSame: 64
+平均信息 ：psnr: 32.05 ber: 0.50 corr: 0.71 numOfNotSame: 64
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=061，col=065的图的相关信息及性能参数:
+第 1 通道：psnr: 32.62 ber: 0.43 corr: 0.76 numOfNotSame: 55
+第 2 通道：psnr: 32.70 ber: 0.41 corr: 0.77 numOfNotSame: 53
+第 3 通道：psnr: 32.70 ber: 0.42 corr: 0.76 numOfNotSame: 54
+平均信息 ：psnr: 32.67 ber: 0.42 corr: 0.76 numOfNotSame: 54
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=061，col=066的图的相关信息及性能参数:
+第 1 通道：psnr: 33.06 ber: 0.40 corr: 0.78 numOfNotSame: 51
+第 2 通道：psnr: 33.14 ber: 0.40 corr: 0.78 numOfNotSame: 51
+第 3 通道：psnr: 33.13 ber: 0.39 corr: 0.78 numOfNotSame: 50
+平均信息 ：psnr: 33.11 ber: 0.40 corr: 0.78 numOfNotSame: 50
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=061，col=067的图的相关信息及性能参数:
+第 1 通道：psnr: 33.02 ber: 0.41 corr: 0.77 numOfNotSame: 52
+第 2 通道：psnr: 33.11 ber: 0.42 corr: 0.76 numOfNotSame: 54
+第 3 通道：psnr: 33.09 ber: 0.45 corr: 0.74 numOfNotSame: 57
+平均信息 ：psnr: 33.07 ber: 0.42 corr: 0.76 numOfNotSame: 54
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=061，col=068的图的相关信息及性能参数:
+第 1 通道：psnr: 32.78 ber: 0.45 corr: 0.74 numOfNotSame: 58
+第 2 通道：psnr: 32.85 ber: 0.47 corr: 0.73 numOfNotSame: 60
+第 3 通道：psnr: 32.84 ber: 0.47 corr: 0.73 numOfNotSame: 60
+平均信息 ：psnr: 32.82 ber: 0.46 corr: 0.73 numOfNotSame: 59
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=061，col=069的图的相关信息及性能参数:
+第 1 通道：psnr: 32.46 ber: 0.54 corr: 0.68 numOfNotSame: 69
+第 2 通道：psnr: 32.53 ber: 0.53 corr: 0.68 numOfNotSame: 68
+第 3 通道：psnr: 32.52 ber: 0.53 corr: 0.68 numOfNotSame: 68
+平均信息 ：psnr: 32.50 ber: 0.53 corr: 0.68 numOfNotSame: 68
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=061，col=070的图的相关信息及性能参数:
+第 1 通道：psnr: 32.13 ber: 0.51 corr: 0.70 numOfNotSame: 65
+第 2 通道：psnr: 32.19 ber: 0.48 corr: 0.72 numOfNotSame: 61
+第 3 通道：psnr: 32.18 ber: 0.50 corr: 0.71 numOfNotSame: 64
+平均信息 ：psnr: 32.17 ber: 0.49 corr: 0.71 numOfNotSame: 63
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=061，col=071的图的相关信息及性能参数:
+第 1 通道：psnr: 31.83 ber: 0.47 corr: 0.73 numOfNotSame: 60
+第 2 通道：psnr: 31.89 ber: 0.48 corr: 0.72 numOfNotSame: 62
+第 3 通道：psnr: 31.88 ber: 0.48 corr: 0.72 numOfNotSame: 61
+平均信息 ：psnr: 31.87 ber: 0.48 corr: 0.72 numOfNotSame: 61
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=062，col=061的图的相关信息及性能参数:
+第 1 通道：psnr: 30.68 ber: 0.45 corr: 0.74 numOfNotSame: 57
+第 2 通道：psnr: 30.73 ber: 0.42 corr: 0.76 numOfNotSame: 54
+第 3 通道：psnr: 30.74 ber: 0.41 corr: 0.77 numOfNotSame: 52
+平均信息 ：psnr: 30.72 ber: 0.42 corr: 0.76 numOfNotSame: 54
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=062，col=062的图的相关信息及性能参数:
+第 1 通道：psnr: 31.07 ber: 0.45 corr: 0.74 numOfNotSame: 57
+第 2 通道：psnr: 31.12 ber: 0.41 corr: 0.77 numOfNotSame: 52
+第 3 通道：psnr: 31.14 ber: 0.44 corr: 0.75 numOfNotSame: 56
+平均信息 ：psnr: 31.11 ber: 0.43 corr: 0.76 numOfNotSame: 55
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=062，col=063的图的相关信息及性能参数:
+第 1 通道：psnr: 31.62 ber: 0.49 corr: 0.71 numOfNotSame: 63
+第 2 通道：psnr: 31.68 ber: 0.49 corr: 0.71 numOfNotSame: 63
+第 3 通道：psnr: 31.70 ber: 0.50 corr: 0.71 numOfNotSame: 64
+平均信息 ：psnr: 31.67 ber: 0.49 corr: 0.71 numOfNotSame: 63
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=062，col=064的图的相关信息及性能参数:
+第 1 通道：psnr: 32.32 ber: 0.46 corr: 0.73 numOfNotSame: 59
+第 2 通道：psnr: 32.39 ber: 0.46 corr: 0.73 numOfNotSame: 59
+第 3 通道：psnr: 32.40 ber: 0.48 corr: 0.72 numOfNotSame: 61
+平均信息 ：psnr: 32.37 ber: 0.47 corr: 0.73 numOfNotSame: 59
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=062，col=065的图的相关信息及性能参数:
+第 1 通道：psnr: 33.04 ber: 0.48 corr: 0.72 numOfNotSame: 61
+第 2 通道：psnr: 33.12 ber: 0.46 corr: 0.73 numOfNotSame: 59
+第 3 通道：psnr: 33.13 ber: 0.48 corr: 0.72 numOfNotSame: 61
+平均信息 ：psnr: 33.10 ber: 0.47 corr: 0.73 numOfNotSame: 60
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=062，col=066的图的相关信息及性能参数:
+第 1 通道：psnr: 33.53 ber: 0.46 corr: 0.73 numOfNotSame: 59
+第 2 通道：psnr: 33.63 ber: 0.48 corr: 0.72 numOfNotSame: 62
+第 3 通道：psnr: 33.61 ber: 0.45 corr: 0.74 numOfNotSame: 58
+平均信息 ：psnr: 33.59 ber: 0.47 corr: 0.73 numOfNotSame: 59
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=062，col=067的图的相关信息及性能参数:
+第 1 通道：psnr: 33.42 ber: 0.55 corr: 0.67 numOfNotSame: 70
+第 2 通道：psnr: 33.51 ber: 0.53 corr: 0.68 numOfNotSame: 68
+第 3 通道：psnr: 33.49 ber: 0.55 corr: 0.67 numOfNotSame: 71
+平均信息 ：psnr: 33.47 ber: 0.54 corr: 0.68 numOfNotSame: 69
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=062，col=068的图的相关信息及性能参数:
+第 1 通道：psnr: 33.07 ber: 0.48 corr: 0.72 numOfNotSame: 62
+第 2 通道：psnr: 33.14 ber: 0.47 corr: 0.73 numOfNotSame: 60
+第 3 通道：psnr: 33.13 ber: 0.49 corr: 0.71 numOfNotSame: 63
+平均信息 ：psnr: 33.11 ber: 0.48 corr: 0.72 numOfNotSame: 61
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=062，col=069的图的相关信息及性能参数:
+第 1 通道：psnr: 32.66 ber: 0.55 corr: 0.67 numOfNotSame: 70
+第 2 通道：psnr: 32.72 ber: 0.53 corr: 0.68 numOfNotSame: 68
+第 3 通道：psnr: 32.71 ber: 0.53 corr: 0.68 numOfNotSame: 68
+平均信息 ：psnr: 32.70 ber: 0.54 corr: 0.68 numOfNotSame: 68
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=062，col=070的图的相关信息及性能参数:
+第 1 通道：psnr: 32.26 ber: 0.52 corr: 0.70 numOfNotSame: 66
+第 2 通道：psnr: 32.33 ber: 0.49 corr: 0.71 numOfNotSame: 63
+第 3 通道：psnr: 32.32 ber: 0.50 corr: 0.71 numOfNotSame: 64
+平均信息 ：psnr: 32.30 ber: 0.50 corr: 0.71 numOfNotSame: 64
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=062，col=071的图的相关信息及性能参数:
+第 1 通道：psnr: 31.92 ber: 0.51 corr: 0.70 numOfNotSame: 65
+第 2 通道：psnr: 31.98 ber: 0.49 corr: 0.71 numOfNotSame: 63
+第 3 通道：psnr: 31.97 ber: 0.51 corr: 0.70 numOfNotSame: 65
+平均信息 ：psnr: 31.96 ber: 0.50 corr: 0.71 numOfNotSame: 64
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=063，col=061的图的相关信息及性能参数:
+第 1 通道：psnr: 30.76 ber: 0.45 corr: 0.74 numOfNotSame: 57
+第 2 通道：psnr: 30.81 ber: 0.40 corr: 0.78 numOfNotSame: 51
+第 3 通道：psnr: 30.82 ber: 0.41 corr: 0.77 numOfNotSame: 52
+平均信息 ：psnr: 30.79 ber: 0.42 corr: 0.76 numOfNotSame: 53
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=063，col=062的图的相关信息及性能参数:
+第 1 通道：psnr: 31.18 ber: 0.48 corr: 0.72 numOfNotSame: 61
+第 2 通道：psnr: 31.24 ber: 0.45 corr: 0.74 numOfNotSame: 58
+第 3 通道：psnr: 31.26 ber: 0.46 corr: 0.73 numOfNotSame: 59
+平均信息 ：psnr: 31.22 ber: 0.46 corr: 0.73 numOfNotSame: 59
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=063，col=063的图的相关信息及性能参数:
+第 1 通道：psnr: 31.81 ber: 0.51 corr: 0.70 numOfNotSame: 65
+第 2 通道：psnr: 31.88 ber: 0.52 corr: 0.70 numOfNotSame: 66
+第 3 通道：psnr: 31.90 ber: 0.51 corr: 0.70 numOfNotSame: 65
+平均信息 ：psnr: 31.86 ber: 0.51 corr: 0.70 numOfNotSame: 65
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=063，col=064的图的相关信息及性能参数:
+第 1 通道：psnr: 32.66 ber: 0.48 corr: 0.72 numOfNotSame: 61
+第 2 通道：psnr: 32.74 ber: 0.48 corr: 0.72 numOfNotSame: 61
+第 3 通道：psnr: 32.75 ber: 0.50 corr: 0.71 numOfNotSame: 64
+平均信息 ：psnr: 32.72 ber: 0.48 corr: 0.72 numOfNotSame: 62
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=063，col=065的图的相关信息及性能参数:
+第 1 通道：psnr: 33.56 ber: 0.51 corr: 0.70 numOfNotSame: 65
+第 2 通道：psnr: 33.64 ber: 0.50 corr: 0.71 numOfNotSame: 64
+第 3 通道：psnr: 33.64 ber: 0.54 corr: 0.68 numOfNotSame: 69
+平均信息 ：psnr: 33.62 ber: 0.52 corr: 0.70 numOfNotSame: 66
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=063，col=066的图的相关信息及性能参数:
+第 1 通道：psnr: 34.11 ber: 0.50 corr: 0.71 numOfNotSame: 64
+第 2 通道：psnr: 34.22 ber: 0.52 corr: 0.69 numOfNotSame: 67
+第 3 通道：psnr: 34.19 ber: 0.52 corr: 0.69 numOfNotSame: 67
+平均信息 ：psnr: 34.17 ber: 0.52 corr: 0.70 numOfNotSame: 66
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=063，col=067的图的相关信息及性能参数:
+第 1 通道：psnr: 33.87 ber: 0.50 corr: 0.71 numOfNotSame: 64
+第 2 通道：psnr: 33.97 ber: 0.48 corr: 0.72 numOfNotSame: 62
+第 3 通道：psnr: 33.94 ber: 0.51 corr: 0.70 numOfNotSame: 65
+平均信息 ：psnr: 33.93 ber: 0.50 corr: 0.71 numOfNotSame: 63
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=063，col=068的图的相关信息及性能参数:
+第 1 通道：psnr: 33.37 ber: 0.45 corr: 0.74 numOfNotSame: 57
+第 2 通道：psnr: 33.45 ber: 0.44 corr: 0.75 numOfNotSame: 56
+第 3 通道：psnr: 33.44 ber: 0.45 corr: 0.74 numOfNotSame: 57
+平均信息 ：psnr: 33.42 ber: 0.44 corr: 0.75 numOfNotSame: 56
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=063，col=069的图的相关信息及性能参数:
+第 1 通道：psnr: 32.83 ber: 0.48 corr: 0.72 numOfNotSame: 61
+第 2 通道：psnr: 32.91 ber: 0.42 corr: 0.76 numOfNotSame: 54
+第 3 通道：psnr: 32.89 ber: 0.45 corr: 0.74 numOfNotSame: 58
+平均信息 ：psnr: 32.88 ber: 0.45 corr: 0.74 numOfNotSame: 57
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=063，col=070的图的相关信息及性能参数:
+第 1 通道：psnr: 32.37 ber: 0.51 corr: 0.70 numOfNotSame: 65
+第 2 通道：psnr: 32.43 ber: 0.46 corr: 0.73 numOfNotSame: 59
+第 3 通道：psnr: 32.42 ber: 0.50 corr: 0.71 numOfNotSame: 64
+平均信息 ：psnr: 32.41 ber: 0.49 corr: 0.71 numOfNotSame: 62
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=063，col=071的图的相关信息及性能参数:
+第 1 通道：psnr: 31.99 ber: 0.49 corr: 0.71 numOfNotSame: 63
+第 2 通道：psnr: 32.05 ber: 0.50 corr: 0.71 numOfNotSame: 64
+第 3 通道：psnr: 32.03 ber: 0.49 corr: 0.71 numOfNotSame: 63
+平均信息 ：psnr: 32.02 ber: 0.49 corr: 0.71 numOfNotSame: 63
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=064，col=061的图的相关信息及性能参数:
+第 1 通道：psnr: 30.84 ber: 0.43 corr: 0.76 numOfNotSame: 55
+第 2 通道：psnr: 30.88 ber: 0.41 corr: 0.77 numOfNotSame: 53
+第 3 通道：psnr: 30.90 ber: 0.42 corr: 0.76 numOfNotSame: 54
+平均信息 ：psnr: 30.87 ber: 0.42 corr: 0.76 numOfNotSame: 54
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=064，col=062的图的相关信息及性能参数:
+第 1 通道：psnr: 31.30 ber: 0.47 corr: 0.73 numOfNotSame: 60
+第 2 通道：psnr: 31.36 ber: 0.45 corr: 0.74 numOfNotSame: 57
+第 3 通道：psnr: 31.38 ber: 0.42 corr: 0.76 numOfNotSame: 54
+平均信息 ：psnr: 31.34 ber: 0.45 corr: 0.74 numOfNotSame: 57
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=064，col=063的图的相关信息及性能参数:
+第 1 通道：psnr: 32.01 ber: 0.51 corr: 0.70 numOfNotSame: 65
+第 2 通道：psnr: 32.08 ber: 0.51 corr: 0.70 numOfNotSame: 65
+第 3 通道：psnr: 32.10 ber: 0.48 corr: 0.72 numOfNotSame: 62
+平均信息 ：psnr: 32.06 ber: 0.50 corr: 0.71 numOfNotSame: 64
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=064，col=064的图的相关信息及性能参数:
+第 1 通道：psnr: 32.99 ber: 0.58 corr: 0.65 numOfNotSame: 74
+第 2 通道：psnr: 33.07 ber: 0.55 corr: 0.67 numOfNotSame: 71
+第 3 通道：psnr: 33.08 ber: 0.55 corr: 0.67 numOfNotSame: 71
+平均信息 ：psnr: 33.05 ber: 0.56 corr: 0.66 numOfNotSame: 72
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=064，col=065的图的相关信息及性能参数:
+第 1 通道：psnr: 34.15 ber: 0.49 corr: 0.71 numOfNotSame: 63
+第 2 通道：psnr: 34.25 ber: 0.49 corr: 0.71 numOfNotSame: 63
+第 3 通道：psnr: 34.24 ber: 0.50 corr: 0.71 numOfNotSame: 64
+平均信息 ：psnr: 34.22 ber: 0.49 corr: 0.71 numOfNotSame: 63
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=064，col=066的图的相关信息及性能参数:
+第 1 通道：psnr: 34.83 ber: 0.43 corr: 0.76 numOfNotSame: 55
+第 2 通道：psnr: 34.96 ber: 0.41 corr: 0.77 numOfNotSame: 53
+第 3 通道：psnr: 34.92 ber: 0.44 corr: 0.75 numOfNotSame: 56
+平均信息 ：psnr: 34.90 ber: 0.43 corr: 0.76 numOfNotSame: 54
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=064，col=067的图的相关信息及性能参数:
+第 1 通道：psnr: 34.38 ber: 0.50 corr: 0.71 numOfNotSame: 64
+第 2 通道：psnr: 34.49 ber: 0.46 corr: 0.73 numOfNotSame: 59
+第 3 通道：psnr: 34.46 ber: 0.46 corr: 0.73 numOfNotSame: 59
+平均信息 ：psnr: 34.44 ber: 0.47 corr: 0.73 numOfNotSame: 60
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=064，col=068的图的相关信息及性能参数:
+第 1 通道：psnr: 33.64 ber: 0.49 corr: 0.71 numOfNotSame: 63
+第 2 通道：psnr: 33.73 ber: 0.49 corr: 0.71 numOfNotSame: 63
+第 3 通道：psnr: 33.71 ber: 0.48 corr: 0.72 numOfNotSame: 61
+平均信息 ：psnr: 33.69 ber: 0.49 corr: 0.72 numOfNotSame: 62
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=064，col=069的图的相关信息及性能参数:
+第 1 通道：psnr: 32.99 ber: 0.54 corr: 0.68 numOfNotSame: 69
+第 2 通道：psnr: 33.07 ber: 0.51 corr: 0.70 numOfNotSame: 65
+第 3 通道：psnr: 33.05 ber: 0.52 corr: 0.70 numOfNotSame: 66
+平均信息 ：psnr: 33.04 ber: 0.52 corr: 0.69 numOfNotSame: 66
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=064，col=070的图的相关信息及性能参数:
+第 1 通道：psnr: 32.46 ber: 0.45 corr: 0.74 numOfNotSame: 58
+第 2 通道：psnr: 32.53 ber: 0.45 corr: 0.74 numOfNotSame: 57
+第 3 通道：psnr: 32.51 ber: 0.44 corr: 0.75 numOfNotSame: 56
+平均信息 ：psnr: 32.50 ber: 0.45 corr: 0.74 numOfNotSame: 57
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=064，col=071的图的相关信息及性能参数:
+第 1 通道：psnr: 32.04 ber: 0.47 corr: 0.73 numOfNotSame: 60
+第 2 通道：psnr: 32.10 ber: 0.45 corr: 0.74 numOfNotSame: 58
+第 3 通道：psnr: 32.09 ber: 0.45 corr: 0.74 numOfNotSame: 57
+平均信息 ：psnr: 32.08 ber: 0.46 corr: 0.74 numOfNotSame: 58
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=065，col=061的图的相关信息及性能参数:
+第 1 通道：psnr: 30.90 ber: 0.46 corr: 0.73 numOfNotSame: 59
+第 2 通道：psnr: 30.95 ber: 0.45 corr: 0.74 numOfNotSame: 57
+第 3 通道：psnr: 30.97 ber: 0.44 corr: 0.75 numOfNotSame: 56
+平均信息 ：psnr: 30.94 ber: 0.45 corr: 0.74 numOfNotSame: 57
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=065，col=062的图的相关信息及性能参数:
+第 1 通道：psnr: 31.41 ber: 0.41 corr: 0.77 numOfNotSame: 52
+第 2 通道：psnr: 31.48 ber: 0.40 corr: 0.78 numOfNotSame: 51
+第 3 通道：psnr: 31.50 ber: 0.38 corr: 0.79 numOfNotSame: 48
+平均信息 ：psnr: 31.46 ber: 0.39 corr: 0.78 numOfNotSame: 50
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=065，col=063的图的相关信息及性能参数:
+第 1 通道：psnr: 32.20 ber: 0.42 corr: 0.76 numOfNotSame: 54
+第 2 通道：psnr: 32.27 ber: 0.42 corr: 0.76 numOfNotSame: 54
+第 3 通道：psnr: 32.29 ber: 0.40 corr: 0.78 numOfNotSame: 51
+平均信息 ：psnr: 32.26 ber: 0.41 corr: 0.77 numOfNotSame: 53
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=065，col=064的图的相关信息及性能参数:
+第 1 通道：psnr: 33.30 ber: 0.45 corr: 0.74 numOfNotSame: 58
+第 2 通道：psnr: 33.39 ber: 0.46 corr: 0.73 numOfNotSame: 59
+第 3 通道：psnr: 33.39 ber: 0.41 corr: 0.77 numOfNotSame: 52
+平均信息 ：psnr: 33.36 ber: 0.44 corr: 0.75 numOfNotSame: 56
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=065，col=065的图的相关信息及性能参数:
+第 1 通道：psnr: 34.74 ber: 0.43 corr: 0.76 numOfNotSame: 55
+第 2 通道：psnr: 34.85 ber: 0.41 corr: 0.77 numOfNotSame: 53
+第 3 通道：psnr: 34.84 ber: 0.43 corr: 0.76 numOfNotSame: 55
+平均信息 ：psnr: 34.81 ber: 0.42 corr: 0.76 numOfNotSame: 54
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=065，col=066的图的相关信息及性能参数:
+第 1 通道：psnr: 35.82 ber: 0.50 corr: 0.71 numOfNotSame: 64
+第 2 通道：psnr: 35.96 ber: 0.48 corr: 0.72 numOfNotSame: 62
+第 3 通道：psnr: 35.91 ber: 0.50 corr: 0.71 numOfNotSame: 64
+平均信息 ：psnr: 35.90 ber: 0.49 corr: 0.71 numOfNotSame: 63
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=065，col=067的图的相关信息及性能参数:
+第 1 通道：psnr: 34.87 ber: 0.47 corr: 0.73 numOfNotSame: 60
+第 2 通道：psnr: 34.99 ber: 0.46 corr: 0.73 numOfNotSame: 59
+第 3 通道：psnr: 34.95 ber: 0.48 corr: 0.72 numOfNotSame: 61
+平均信息 ：psnr: 34.94 ber: 0.47 corr: 0.73 numOfNotSame: 60
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=065，col=068的图的相关信息及性能参数:
+第 1 通道：psnr: 33.86 ber: 0.48 corr: 0.72 numOfNotSame: 61
+第 2 通道：psnr: 33.95 ber: 0.48 corr: 0.72 numOfNotSame: 61
+第 3 通道：psnr: 33.93 ber: 0.50 corr: 0.71 numOfNotSame: 64
+平均信息 ：psnr: 33.91 ber: 0.48 corr: 0.72 numOfNotSame: 62
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=065，col=069的图的相关信息及性能参数:
+第 1 通道：psnr: 33.11 ber: 0.55 corr: 0.67 numOfNotSame: 70
+第 2 通道：psnr: 33.19 ber: 0.55 corr: 0.67 numOfNotSame: 70
+第 3 通道：psnr: 33.17 ber: 0.55 corr: 0.67 numOfNotSame: 71
+平均信息 ：psnr: 33.16 ber: 0.55 corr: 0.67 numOfNotSame: 70
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=065，col=070的图的相关信息及性能参数:
+第 1 通道：psnr: 32.53 ber: 0.46 corr: 0.73 numOfNotSame: 59
+第 2 通道：psnr: 32.60 ber: 0.45 corr: 0.74 numOfNotSame: 58
+第 3 通道：psnr: 32.58 ber: 0.44 corr: 0.75 numOfNotSame: 56
+平均信息 ：psnr: 32.57 ber: 0.45 corr: 0.74 numOfNotSame: 57
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=065，col=071的图的相关信息及性能参数:
+第 1 通道：psnr: 32.08 ber: 0.40 corr: 0.78 numOfNotSame: 51
+第 2 通道：psnr: 32.14 ber: 0.40 corr: 0.78 numOfNotSame: 51
+第 3 通道：psnr: 32.12 ber: 0.41 corr: 0.77 numOfNotSame: 52
+平均信息 ：psnr: 32.11 ber: 0.40 corr: 0.77 numOfNotSame: 51
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=066，col=061的图的相关信息及性能参数:
+第 1 通道：psnr: 30.98 ber: 0.45 corr: 0.74 numOfNotSame: 57
+第 2 通道：psnr: 31.03 ber: 0.46 corr: 0.73 numOfNotSame: 59
+第 3 通道：psnr: 31.04 ber: 0.44 corr: 0.75 numOfNotSame: 56
+平均信息 ：psnr: 31.01 ber: 0.45 corr: 0.74 numOfNotSame: 57
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=066，col=062的图的相关信息及性能参数:
+第 1 通道：psnr: 31.52 ber: 0.42 corr: 0.76 numOfNotSame: 54
+第 2 通道：psnr: 31.59 ber: 0.43 corr: 0.76 numOfNotSame: 55
+第 3 通道：psnr: 31.61 ber: 0.43 corr: 0.76 numOfNotSame: 55
+平均信息 ：psnr: 31.57 ber: 0.43 corr: 0.76 numOfNotSame: 54
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=066，col=063的图的相关信息及性能参数:
+第 1 通道：psnr: 32.37 ber: 0.45 corr: 0.74 numOfNotSame: 58
+第 2 通道：psnr: 32.44 ber: 0.45 corr: 0.74 numOfNotSame: 58
+第 3 通道：psnr: 32.46 ber: 0.44 corr: 0.75 numOfNotSame: 56
+平均信息 ：psnr: 32.42 ber: 0.45 corr: 0.74 numOfNotSame: 57
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=066，col=064的图的相关信息及性能参数:
+第 1 通道：psnr: 33.57 ber: 0.45 corr: 0.74 numOfNotSame: 57
+第 2 通道：psnr: 33.66 ber: 0.41 corr: 0.77 numOfNotSame: 52
+第 3 通道：psnr: 33.66 ber: 0.41 corr: 0.77 numOfNotSame: 53
+平均信息 ：psnr: 33.63 ber: 0.42 corr: 0.76 numOfNotSame: 54
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=066，col=065的图的相关信息及性能参数:
+第 1 通道：psnr: 35.22 ber: 0.44 corr: 0.75 numOfNotSame: 56
+第 2 通道：psnr: 35.35 ber: 0.41 corr: 0.77 numOfNotSame: 52
+第 3 通道：psnr: 35.33 ber: 0.43 corr: 0.76 numOfNotSame: 55
+平均信息 ：psnr: 35.30 ber: 0.42 corr: 0.76 numOfNotSame: 54
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=066，col=066的图的相关信息及性能参数:
+第 1 通道：psnr: 36.62 ber: 0.40 corr: 0.78 numOfNotSame: 51
+第 2 通道：psnr: 36.76 ber: 0.42 corr: 0.76 numOfNotSame: 54
+第 3 通道：psnr: 36.70 ber: 0.45 corr: 0.74 numOfNotSame: 58
+平均信息 ：psnr: 36.70 ber: 0.42 corr: 0.76 numOfNotSame: 54
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=066，col=067的图的相关信息及性能参数:
+第 1 通道：psnr: 35.13 ber: 0.42 corr: 0.76 numOfNotSame: 54
+第 2 通道：psnr: 35.27 ber: 0.42 corr: 0.76 numOfNotSame: 54
+第 3 通道：psnr: 35.22 ber: 0.41 corr: 0.77 numOfNotSame: 52
+平均信息 ：psnr: 35.21 ber: 0.42 corr: 0.76 numOfNotSame: 53
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=066，col=068的图的相关信息及性能参数:
+第 1 通道：psnr: 33.95 ber: 0.48 corr: 0.72 numOfNotSame: 62
+第 2 通道：psnr: 34.05 ber: 0.50 corr: 0.71 numOfNotSame: 64
+第 3 通道：psnr: 34.02 ber: 0.49 corr: 0.71 numOfNotSame: 63
+平均信息 ：psnr: 34.01 ber: 0.49 corr: 0.71 numOfNotSame: 63
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=066，col=069的图的相关信息及性能参数:
+第 1 通道：psnr: 33.15 ber: 0.47 corr: 0.73 numOfNotSame: 60
+第 2 通道：psnr: 33.23 ber: 0.49 corr: 0.71 numOfNotSame: 63
+第 3 通道：psnr: 33.21 ber: 0.53 corr: 0.68 numOfNotSame: 68
+平均信息 ：psnr: 33.20 ber: 0.50 corr: 0.71 numOfNotSame: 63
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=066，col=070的图的相关信息及性能参数:
+第 1 通道：psnr: 32.54 ber: 0.51 corr: 0.70 numOfNotSame: 65
+第 2 通道：psnr: 32.61 ber: 0.52 corr: 0.70 numOfNotSame: 66
+第 3 通道：psnr: 32.59 ber: 0.52 corr: 0.70 numOfNotSame: 66
+平均信息 ：psnr: 32.58 ber: 0.51 corr: 0.70 numOfNotSame: 65
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=066，col=071的图的相关信息及性能参数:
+第 1 通道：psnr: 32.08 ber: 0.47 corr: 0.73 numOfNotSame: 60
+第 2 通道：psnr: 32.14 ber: 0.46 corr: 0.73 numOfNotSame: 59
+第 3 通道：psnr: 32.12 ber: 0.45 corr: 0.74 numOfNotSame: 58
+平均信息 ：psnr: 32.11 ber: 0.46 corr: 0.73 numOfNotSame: 59
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=067，col=061的图的相关信息及性能参数:
+第 1 通道：psnr: 31.03 ber: 0.51 corr: 0.70 numOfNotSame: 65
+第 2 通道：psnr: 31.08 ber: 0.49 corr: 0.71 numOfNotSame: 63
+第 3 通道：psnr: 31.10 ber: 0.52 corr: 0.70 numOfNotSame: 66
+平均信息 ：psnr: 31.07 ber: 0.51 corr: 0.70 numOfNotSame: 64
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=067，col=062的图的相关信息及性能参数:
+第 1 通道：psnr: 31.59 ber: 0.49 corr: 0.71 numOfNotSame: 63
+第 2 通道：psnr: 31.66 ber: 0.48 corr: 0.72 numOfNotSame: 62
+第 3 通道：psnr: 31.68 ber: 0.52 corr: 0.70 numOfNotSame: 66
+平均信息 ：psnr: 31.65 ber: 0.50 corr: 0.71 numOfNotSame: 63
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=067，col=063的图的相关信息及性能参数:
+第 1 通道：psnr: 32.47 ber: 0.55 corr: 0.67 numOfNotSame: 70
+第 2 通道：psnr: 32.55 ber: 0.56 corr: 0.66 numOfNotSame: 72
+第 3 通道：psnr: 32.56 ber: 0.55 corr: 0.67 numOfNotSame: 70
+平均信息 ：psnr: 32.53 ber: 0.55 corr: 0.67 numOfNotSame: 70
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=067，col=064的图的相关信息及性能参数:
+第 1 通道：psnr: 33.66 ber: 0.44 corr: 0.75 numOfNotSame: 56
+第 2 通道：psnr: 33.75 ber: 0.46 corr: 0.73 numOfNotSame: 59
+第 3 通道：psnr: 33.75 ber: 0.45 corr: 0.74 numOfNotSame: 58
+平均信息 ：psnr: 33.72 ber: 0.45 corr: 0.74 numOfNotSame: 57
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=067，col=065的图的相关信息及性能参数:
+第 1 通道：psnr: 35.13 ber: 0.44 corr: 0.75 numOfNotSame: 56
+第 2 通道：psnr: 35.27 ber: 0.42 corr: 0.76 numOfNotSame: 54
+第 3 通道：psnr: 35.23 ber: 0.43 corr: 0.76 numOfNotSame: 55
+平均信息 ：psnr: 35.21 ber: 0.43 corr: 0.76 numOfNotSame: 55
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=067，col=066的图的相关信息及性能参数:
+第 1 通道：psnr: 35.96 ber: 0.41 corr: 0.77 numOfNotSame: 53
+第 2 通道：psnr: 36.13 ber: 0.41 corr: 0.77 numOfNotSame: 52
+第 3 通道：psnr: 36.05 ber: 0.43 corr: 0.76 numOfNotSame: 55
+平均信息 ：psnr: 36.05 ber: 0.42 corr: 0.76 numOfNotSame: 53
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=067，col=067的图的相关信息及性能参数:
+第 1 通道：psnr: 34.93 ber: 0.52 corr: 0.70 numOfNotSame: 66
+第 2 通道：psnr: 35.08 ber: 0.53 corr: 0.68 numOfNotSame: 68
+第 3 通道：psnr: 35.02 ber: 0.52 corr: 0.70 numOfNotSame: 66
+平均信息 ：psnr: 35.01 ber: 0.52 corr: 0.69 numOfNotSame: 66
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=067，col=068的图的相关信息及性能参数:
+第 1 通道：psnr: 33.89 ber: 0.49 corr: 0.71 numOfNotSame: 63
+第 2 通道：psnr: 34.00 ber: 0.52 corr: 0.70 numOfNotSame: 66
+第 3 通道：psnr: 33.96 ber: 0.52 corr: 0.70 numOfNotSame: 66
+平均信息 ：psnr: 33.95 ber: 0.51 corr: 0.70 numOfNotSame: 65
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=067，col=069的图的相关信息及性能参数:
+第 1 通道：psnr: 33.12 ber: 0.49 corr: 0.71 numOfNotSame: 63
+第 2 通道：psnr: 33.20 ber: 0.48 corr: 0.72 numOfNotSame: 62
+第 3 通道：psnr: 33.17 ber: 0.49 corr: 0.71 numOfNotSame: 63
+平均信息 ：psnr: 33.16 ber: 0.49 corr: 0.71 numOfNotSame: 62
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=067，col=070的图的相关信息及性能参数:
+第 1 通道：psnr: 32.51 ber: 0.57 corr: 0.66 numOfNotSame: 73
+第 2 通道：psnr: 32.59 ber: 0.56 corr: 0.66 numOfNotSame: 72
+第 3 通道：psnr: 32.56 ber: 0.57 corr: 0.66 numOfNotSame: 73
+平均信息 ：psnr: 32.55 ber: 0.57 corr: 0.66 numOfNotSame: 72
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=067，col=071的图的相关信息及性能参数:
+第 1 通道：psnr: 32.06 ber: 0.54 corr: 0.68 numOfNotSame: 69
+第 2 通道：psnr: 32.13 ber: 0.54 corr: 0.68 numOfNotSame: 69
+第 3 通道：psnr: 32.10 ber: 0.53 corr: 0.68 numOfNotSame: 68
+平均信息 ：psnr: 32.10 ber: 0.54 corr: 0.68 numOfNotSame: 68
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=068，col=061的图的相关信息及性能参数:
+第 1 通道：psnr: 31.07 ber: 0.51 corr: 0.70 numOfNotSame: 65
+第 2 通道：psnr: 31.13 ber: 0.53 corr: 0.68 numOfNotSame: 68
+第 3 通道：psnr: 31.14 ber: 0.52 corr: 0.69 numOfNotSame: 67
+平均信息 ：psnr: 31.11 ber: 0.52 corr: 0.69 numOfNotSame: 66
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=068，col=062的图的相关信息及性能参数:
+第 1 通道：psnr: 31.63 ber: 0.45 corr: 0.74 numOfNotSame: 58
+第 2 通道：psnr: 31.71 ber: 0.43 corr: 0.76 numOfNotSame: 55
+第 3 通道：psnr: 31.72 ber: 0.47 corr: 0.73 numOfNotSame: 60
+平均信息 ：psnr: 31.69 ber: 0.45 corr: 0.74 numOfNotSame: 57
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=068，col=063的图的相关信息及性能参数:
+第 1 通道：psnr: 32.49 ber: 0.48 corr: 0.72 numOfNotSame: 62
+第 2 通道：psnr: 32.57 ber: 0.50 corr: 0.71 numOfNotSame: 64
+第 3 通道：psnr: 32.57 ber: 0.50 corr: 0.71 numOfNotSame: 64
+平均信息 ：psnr: 32.54 ber: 0.49 corr: 0.71 numOfNotSame: 63
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=068，col=064的图的相关信息及性能参数:
+第 1 通道：psnr: 33.57 ber: 0.42 corr: 0.76 numOfNotSame: 54
+第 2 通道：psnr: 33.67 ber: 0.40 corr: 0.78 numOfNotSame: 51
+第 3 通道：psnr: 33.66 ber: 0.41 corr: 0.77 numOfNotSame: 53
+平均信息 ：psnr: 33.63 ber: 0.41 corr: 0.77 numOfNotSame: 52
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=068，col=065的图的相关信息及性能参数:
+第 1 通道：psnr: 34.63 ber: 0.47 corr: 0.73 numOfNotSame: 60
+第 2 通道：psnr: 34.76 ber: 0.48 corr: 0.72 numOfNotSame: 61
+第 3 通道：psnr: 34.72 ber: 0.46 corr: 0.73 numOfNotSame: 59
+平均信息 ：psnr: 34.70 ber: 0.47 corr: 0.73 numOfNotSame: 60
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=068，col=066的图的相关信息及性能参数:
+第 1 通道：psnr: 34.99 ber: 0.45 corr: 0.74 numOfNotSame: 58
+第 2 通道：psnr: 35.14 ber: 0.46 corr: 0.73 numOfNotSame: 59
+第 3 通道：psnr: 35.07 ber: 0.48 corr: 0.72 numOfNotSame: 61
+平均信息 ：psnr: 35.07 ber: 0.46 corr: 0.73 numOfNotSame: 59
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=068，col=067的图的相关信息及性能参数:
+第 1 通道：psnr: 34.42 ber: 0.46 corr: 0.73 numOfNotSame: 59
+第 2 通道：psnr: 34.55 ber: 0.48 corr: 0.72 numOfNotSame: 61
+第 3 通道：psnr: 34.49 ber: 0.48 corr: 0.72 numOfNotSame: 62
+平均信息 ：psnr: 34.49 ber: 0.47 corr: 0.73 numOfNotSame: 60
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=068，col=068的图的相关信息及性能参数:
+第 1 通道：psnr: 33.68 ber: 0.42 corr: 0.76 numOfNotSame: 54
+第 2 通道：psnr: 33.78 ber: 0.48 corr: 0.72 numOfNotSame: 61
+第 3 通道：psnr: 33.74 ber: 0.45 corr: 0.74 numOfNotSame: 57
+平均信息 ：psnr: 33.73 ber: 0.45 corr: 0.74 numOfNotSame: 57
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=068，col=069的图的相关信息及性能参数:
+第 1 通道：psnr: 33.01 ber: 0.48 corr: 0.72 numOfNotSame: 61
+第 2 通道：psnr: 33.10 ber: 0.52 corr: 0.70 numOfNotSame: 66
+第 3 通道：psnr: 33.06 ber: 0.52 corr: 0.70 numOfNotSame: 66
+平均信息 ：psnr: 33.06 ber: 0.50 corr: 0.71 numOfNotSame: 64
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=068，col=070的图的相关信息及性能参数:
+第 1 通道：psnr: 32.46 ber: 0.44 corr: 0.75 numOfNotSame: 56
+第 2 通道：psnr: 32.53 ber: 0.45 corr: 0.74 numOfNotSame: 57
+第 3 通道：psnr: 32.50 ber: 0.45 corr: 0.74 numOfNotSame: 57
+平均信息 ：psnr: 32.50 ber: 0.44 corr: 0.75 numOfNotSame: 56
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=068，col=071的图的相关信息及性能参数:
+第 1 通道：psnr: 32.03 ber: 0.49 corr: 0.71 numOfNotSame: 63
+第 2 通道：psnr: 32.10 ber: 0.51 corr: 0.70 numOfNotSame: 65
+第 3 通道：psnr: 32.07 ber: 0.49 corr: 0.71 numOfNotSame: 63
+平均信息 ：psnr: 32.06 ber: 0.50 corr: 0.71 numOfNotSame: 63
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=069，col=061的图的相关信息及性能参数:
+第 1 通道：psnr: 31.08 ber: 0.42 corr: 0.76 numOfNotSame: 54
+第 2 通道：psnr: 31.14 ber: 0.44 corr: 0.75 numOfNotSame: 56
+第 3 通道：psnr: 31.15 ber: 0.45 corr: 0.74 numOfNotSame: 58
+平均信息 ：psnr: 31.12 ber: 0.44 corr: 0.75 numOfNotSame: 56
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=069，col=062的图的相关信息及性能参数:
+第 1 通道：psnr: 31.64 ber: 0.38 corr: 0.79 numOfNotSame: 49
+第 2 通道：psnr: 31.72 ber: 0.38 corr: 0.79 numOfNotSame: 48
+第 3 通道：psnr: 31.72 ber: 0.38 corr: 0.79 numOfNotSame: 48
+平均信息 ：psnr: 31.69 ber: 0.38 corr: 0.79 numOfNotSame: 48
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=069，col=063的图的相关信息及性能参数:
+第 1 通道：psnr: 32.45 ber: 0.44 corr: 0.75 numOfNotSame: 56
+第 2 通道：psnr: 32.53 ber: 0.49 corr: 0.71 numOfNotSame: 63
+第 3 通道：psnr: 32.53 ber: 0.46 corr: 0.73 numOfNotSame: 59
+平均信息 ：psnr: 32.50 ber: 0.46 corr: 0.73 numOfNotSame: 59
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=069，col=064的图的相关信息及性能参数:
+第 1 通道：psnr: 33.35 ber: 0.46 corr: 0.73 numOfNotSame: 59
+第 2 通道：psnr: 33.45 ber: 0.47 corr: 0.73 numOfNotSame: 60
+第 3 通道：psnr: 33.43 ber: 0.46 corr: 0.73 numOfNotSame: 59
+平均信息 ：psnr: 33.41 ber: 0.46 corr: 0.73 numOfNotSame: 59
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=069，col=065的图的相关信息及性能参数:
+第 1 通道：psnr: 34.10 ber: 0.42 corr: 0.76 numOfNotSame: 54
+第 2 通道：psnr: 34.22 ber: 0.44 corr: 0.75 numOfNotSame: 56
+第 3 通道：psnr: 34.18 ber: 0.43 corr: 0.76 numOfNotSame: 55
+平均信息 ：psnr: 34.17 ber: 0.43 corr: 0.76 numOfNotSame: 55
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=069，col=066的图的相关信息及性能参数:
+第 1 通道：psnr: 34.30 ber: 0.41 corr: 0.77 numOfNotSame: 53
+第 2 通道：psnr: 34.43 ber: 0.42 corr: 0.76 numOfNotSame: 54
+第 3 通道：psnr: 34.36 ber: 0.38 corr: 0.79 numOfNotSame: 49
+平均信息 ：psnr: 34.36 ber: 0.41 corr: 0.77 numOfNotSame: 52
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=069，col=067的图的相关信息及性能参数:
+第 1 通道：psnr: 33.93 ber: 0.35 corr: 0.81 numOfNotSame: 45
+第 2 通道：psnr: 34.04 ber: 0.36 corr: 0.80 numOfNotSame: 46
+第 3 通道：psnr: 33.99 ber: 0.38 corr: 0.79 numOfNotSame: 48
+平均信息 ：psnr: 33.99 ber: 0.36 corr: 0.80 numOfNotSame: 46
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=069，col=068的图的相关信息及性能参数:
+第 1 通道：psnr: 33.36 ber: 0.44 corr: 0.75 numOfNotSame: 56
+第 2 通道：psnr: 33.47 ber: 0.41 corr: 0.77 numOfNotSame: 52
+第 3 通道：psnr: 33.42 ber: 0.41 corr: 0.77 numOfNotSame: 52
+平均信息 ：psnr: 33.42 ber: 0.42 corr: 0.76 numOfNotSame: 53
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=069，col=069的图的相关信息及性能参数:
+第 1 通道：psnr: 32.84 ber: 0.48 corr: 0.72 numOfNotSame: 61
+第 2 通道：psnr: 32.93 ber: 0.46 corr: 0.73 numOfNotSame: 59
+第 3 通道：psnr: 32.89 ber: 0.47 corr: 0.73 numOfNotSame: 60
+平均信息 ：psnr: 32.88 ber: 0.47 corr: 0.73 numOfNotSame: 60
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=069，col=070的图的相关信息及性能参数:
+第 1 通道：psnr: 32.37 ber: 0.50 corr: 0.71 numOfNotSame: 64
+第 2 通道：psnr: 32.45 ber: 0.48 corr: 0.72 numOfNotSame: 62
+第 3 通道：psnr: 32.41 ber: 0.48 corr: 0.72 numOfNotSame: 62
+平均信息 ：psnr: 32.41 ber: 0.49 corr: 0.71 numOfNotSame: 62
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=069，col=071的图的相关信息及性能参数:
+第 1 通道：psnr: 31.96 ber: 0.51 corr: 0.70 numOfNotSame: 65
+第 2 通道：psnr: 32.04 ber: 0.49 corr: 0.71 numOfNotSame: 63
+第 3 通道：psnr: 32.01 ber: 0.50 corr: 0.71 numOfNotSame: 64
+平均信息 ：psnr: 32.00 ber: 0.50 corr: 0.71 numOfNotSame: 64
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=070，col=061的图的相关信息及性能参数:
+第 1 通道：psnr: 31.07 ber: 0.48 corr: 0.72 numOfNotSame: 61
+第 2 通道：psnr: 31.14 ber: 0.48 corr: 0.72 numOfNotSame: 61
+第 3 通道：psnr: 31.15 ber: 0.46 corr: 0.73 numOfNotSame: 59
+平均信息 ：psnr: 31.12 ber: 0.47 corr: 0.73 numOfNotSame: 60
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=070，col=062的图的相关信息及性能参数:
+第 1 通道：psnr: 31.63 ber: 0.48 corr: 0.72 numOfNotSame: 61
+第 2 通道：psnr: 31.70 ber: 0.46 corr: 0.73 numOfNotSame: 59
+第 3 通道：psnr: 31.71 ber: 0.46 corr: 0.73 numOfNotSame: 59
+平均信息 ：psnr: 31.68 ber: 0.47 corr: 0.73 numOfNotSame: 59
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=070，col=063的图的相关信息及性能参数:
+第 1 通道：psnr: 32.35 ber: 0.41 corr: 0.77 numOfNotSame: 53
+第 2 通道：psnr: 32.43 ber: 0.41 corr: 0.77 numOfNotSame: 53
+第 3 通道：psnr: 32.43 ber: 0.41 corr: 0.77 numOfNotSame: 53
+平均信息 ：psnr: 32.40 ber: 0.41 corr: 0.77 numOfNotSame: 53
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=070，col=064的图的相关信息及性能参数:
+第 1 通道：psnr: 33.08 ber: 0.46 corr: 0.73 numOfNotSame: 59
+第 2 通道：psnr: 33.17 ber: 0.45 corr: 0.74 numOfNotSame: 57
+第 3 通道：psnr: 33.15 ber: 0.48 corr: 0.72 numOfNotSame: 61
+平均信息 ：psnr: 33.13 ber: 0.46 corr: 0.73 numOfNotSame: 59
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=070，col=065的图的相关信息及性能参数:
+第 1 通道：psnr: 33.63 ber: 0.41 corr: 0.77 numOfNotSame: 53
+第 2 通道：psnr: 33.74 ber: 0.44 corr: 0.75 numOfNotSame: 56
+第 3 通道：psnr: 33.70 ber: 0.44 corr: 0.75 numOfNotSame: 56
+平均信息 ：psnr: 33.69 ber: 0.43 corr: 0.76 numOfNotSame: 55
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=070，col=066的图的相关信息及性能参数:
+第 1 通道：psnr: 33.76 ber: 0.45 corr: 0.74 numOfNotSame: 57
+第 2 通道：psnr: 33.88 ber: 0.46 corr: 0.73 numOfNotSame: 59
+第 3 通道：psnr: 33.82 ber: 0.44 corr: 0.75 numOfNotSame: 56
+平均信息 ：psnr: 33.82 ber: 0.45 corr: 0.74 numOfNotSame: 57
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=070，col=067的图的相关信息及性能参数:
+第 1 通道：psnr: 33.49 ber: 0.36 corr: 0.80 numOfNotSame: 46
+第 2 通道：psnr: 33.60 ber: 0.41 corr: 0.77 numOfNotSame: 53
+第 3 通道：psnr: 33.55 ber: 0.39 corr: 0.78 numOfNotSame: 50
+平均信息 ：psnr: 33.54 ber: 0.39 corr: 0.78 numOfNotSame: 49
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=070，col=068的图的相关信息及性能参数:
+第 1 通道：psnr: 33.08 ber: 0.45 corr: 0.74 numOfNotSame: 58
+第 2 通道：psnr: 33.18 ber: 0.48 corr: 0.72 numOfNotSame: 61
+第 3 通道：psnr: 33.13 ber: 0.47 corr: 0.73 numOfNotSame: 60
+平均信息 ：psnr: 33.13 ber: 0.47 corr: 0.73 numOfNotSame: 59
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=070，col=069的图的相关信息及性能参数:
+第 1 通道：psnr: 32.64 ber: 0.40 corr: 0.78 numOfNotSame: 51
+第 2 通道：psnr: 32.73 ber: 0.42 corr: 0.76 numOfNotSame: 54
+第 3 通道：psnr: 32.68 ber: 0.42 corr: 0.76 numOfNotSame: 54
+平均信息 ：psnr: 32.68 ber: 0.41 corr: 0.77 numOfNotSame: 53
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=070，col=070的图的相关信息及性能参数:
+第 1 通道：psnr: 32.25 ber: 0.46 corr: 0.73 numOfNotSame: 59
+第 2 通道：psnr: 32.33 ber: 0.46 corr: 0.73 numOfNotSame: 59
+第 3 通道：psnr: 32.30 ber: 0.46 corr: 0.73 numOfNotSame: 59
+平均信息 ：psnr: 32.29 ber: 0.46 corr: 0.73 numOfNotSame: 59
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=070，col=071的图的相关信息及性能参数:
+第 1 通道：psnr: 31.89 ber: 0.48 corr: 0.72 numOfNotSame: 62
+第 2 通道：psnr: 31.97 ber: 0.49 corr: 0.71 numOfNotSame: 63
+第 3 通道：psnr: 31.93 ber: 0.49 corr: 0.71 numOfNotSame: 63
+平均信息 ：psnr: 31.93 ber: 0.49 corr: 0.71 numOfNotSame: 62
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=071，col=061的图的相关信息及性能参数:
+第 1 通道：psnr: 31.05 ber: 0.52 corr: 0.69 numOfNotSame: 67
+第 2 通道：psnr: 31.13 ber: 0.48 corr: 0.72 numOfNotSame: 61
+第 3 通道：psnr: 31.13 ber: 0.49 corr: 0.71 numOfNotSame: 63
+平均信息 ：psnr: 31.10 ber: 0.50 corr: 0.71 numOfNotSame: 63
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=071，col=062的图的相关信息及性能参数:
+第 1 通道：psnr: 31.57 ber: 0.48 corr: 0.72 numOfNotSame: 62
+第 2 通道：psnr: 31.66 ber: 0.47 corr: 0.73 numOfNotSame: 60
+第 3 通道：psnr: 31.65 ber: 0.47 corr: 0.73 numOfNotSame: 60
+平均信息 ：psnr: 31.63 ber: 0.47 corr: 0.73 numOfNotSame: 60
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=071，col=063的图的相关信息及性能参数:
+第 1 通道：psnr: 32.22 ber: 0.46 corr: 0.73 numOfNotSame: 59
+第 2 通道：psnr: 32.30 ber: 0.49 corr: 0.71 numOfNotSame: 63
+第 3 通道：psnr: 32.29 ber: 0.48 corr: 0.72 numOfNotSame: 62
+平均信息 ：psnr: 32.27 ber: 0.48 corr: 0.72 numOfNotSame: 61
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=071，col=064的图的相关信息及性能参数:
+第 1 通道：psnr: 32.81 ber: 0.46 corr: 0.73 numOfNotSame: 59
+第 2 通道：psnr: 32.90 ber: 0.48 corr: 0.72 numOfNotSame: 62
+第 3 通道：psnr: 32.88 ber: 0.50 corr: 0.71 numOfNotSame: 64
+平均信息 ：psnr: 32.86 ber: 0.48 corr: 0.72 numOfNotSame: 61
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=071，col=065的图的相关信息及性能参数:
+第 1 通道：psnr: 33.25 ber: 0.42 corr: 0.76 numOfNotSame: 54
+第 2 通道：psnr: 33.35 ber: 0.45 corr: 0.74 numOfNotSame: 58
+第 3 通道：psnr: 33.31 ber: 0.41 corr: 0.77 numOfNotSame: 53
+平均信息 ：psnr: 33.30 ber: 0.43 corr: 0.76 numOfNotSame: 55
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=071，col=066的图的相关信息及性能参数:
+第 1 通道：psnr: 33.33 ber: 0.50 corr: 0.71 numOfNotSame: 64
+第 2 通道：psnr: 33.43 ber: 0.49 corr: 0.71 numOfNotSame: 63
+第 3 通道：psnr: 33.38 ber: 0.47 corr: 0.73 numOfNotSame: 60
+平均信息 ：psnr: 33.38 ber: 0.49 corr: 0.72 numOfNotSame: 62
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=071，col=067的图的相关信息及性能参数:
+第 1 通道：psnr: 33.12 ber: 0.42 corr: 0.76 numOfNotSame: 54
+第 2 通道：psnr: 33.22 ber: 0.42 corr: 0.76 numOfNotSame: 54
+第 3 通道：psnr: 33.17 ber: 0.42 corr: 0.76 numOfNotSame: 54
+平均信息 ：psnr: 33.17 ber: 0.42 corr: 0.76 numOfNotSame: 54
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=071，col=068的图的相关信息及性能参数:
+第 1 通道：psnr: 32.82 ber: 0.41 corr: 0.77 numOfNotSame: 52
+第 2 通道：psnr: 32.91 ber: 0.41 corr: 0.77 numOfNotSame: 52
+第 3 通道：psnr: 32.86 ber: 0.43 corr: 0.76 numOfNotSame: 55
+平均信息 ：psnr: 32.86 ber: 0.41 corr: 0.77 numOfNotSame: 53
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=071，col=069的图的相关信息及性能参数:
+第 1 通道：psnr: 32.44 ber: 0.43 corr: 0.76 numOfNotSame: 55
+第 2 通道：psnr: 32.53 ber: 0.41 corr: 0.77 numOfNotSame: 52
+第 3 通道：psnr: 32.49 ber: 0.44 corr: 0.75 numOfNotSame: 56
+平均信息 ：psnr: 32.49 ber: 0.42 corr: 0.76 numOfNotSame: 54
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=071，col=070的图的相关信息及性能参数:
+第 1 通道：psnr: 32.11 ber: 0.44 corr: 0.75 numOfNotSame: 56
+第 2 通道：psnr: 32.19 ber: 0.45 corr: 0.74 numOfNotSame: 57
+第 3 通道：psnr: 32.15 ber: 0.45 corr: 0.74 numOfNotSame: 57
+平均信息 ：psnr: 32.15 ber: 0.44 corr: 0.75 numOfNotSame: 56
+---------------------------------------------------------------------------------------------
+滑动提取位置为row=071，col=071的图的相关信息及性能参数:
+第 1 通道：psnr: 31.80 ber: 0.48 corr: 0.72 numOfNotSame: 62
+第 2 通道：psnr: 31.88 ber: 0.49 corr: 0.71 numOfNotSame: 63
+第 3 通道：psnr: 31.84 ber: 0.49 corr: 0.71 numOfNotSame: 63
+平均信息 ：psnr: 31.84 ber: 0.49 corr: 0.71 numOfNotSame: 62
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------
+最好的为子图区域位于row= 69,col=67
+
+最好图像的数据平均信息 ：psnr: 33.99 ber: 0.36 corr: 0.80 numOfNotSame: 46

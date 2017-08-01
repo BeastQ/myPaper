@@ -1,0 +1,35 @@
+第一通道----------------------------------------------------
+op差异度是0.797513
+oc差异度是1.514668
+ox差异度是1.535395
+
+op差异度0,1比例是0.732781
+oc差异度0,1比例是0.501276
+ox差异度0,1比例是0.492985
+
+RelatDiff origion&print channel 1 差异度为0的比例是0.528699
+RelatDiff origion&copy channel 1 差异度为0的比例是0.210778
+RelatDiff origion&PS fixed channel 1 差异度为0的比例是0.199617
+
+RelatDiff origion&print channel 1 差异度为0与3的比例是8.962162
+RelatDiff origion&copy channel 1 差异度为0与3的比例是0.929677
+RelatDiff origion&PS fixed channel 1 差异度为0与3的比例是0.875524
+
+第二通道----------------------------------------------------
+RelatDiff origion&print channel 2 差异度为0的比例是0.540179
+RelatDiff origion&copy channel 2 差异度为0的比例是0.214605
+RelatDiff origion&PS fixed channel 2 差异度为0的比例是0.201531
+
+RelatDiff origion&print channel 2 差异度为0与3的比例是9.625000
+RelatDiff origion&copy channel 2 差异度为0与3的比例是0.954610
+RelatDiff origion&PS fixed channel 2 差异度为0与3的比例是0.892655
+
+第三通道----------------------------------------------------
+RelatDiff origion&print channel 3 差异度为0的比例是0.535077
+RelatDiff origion&copy channel 3 差异度为0的比例是0.203763
+RelatDiff origion&PS fixed channel 3 差异度为0的比例是0.216518
+
+RelatDiff origion&print channel 3 差异度为0与3的比例是10.358025
+RelatDiff origion&copy channel 3 差异度为0与3的比例是0.869388
+RelatDiff origion&PS fixed channel 3 差异度为0与3的比例是0.961756
+
