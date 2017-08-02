@@ -9,16 +9,16 @@
 clear all;close all;clc;
 
 %  dtImFormat='.jpg';%图片格式
- dtImFormat='.tif';%图片格式
+ dtImFormat='.tiff';%图片格式
 %  
-vConType = 'ZigZag';         %矢量的构成方式:ZigZag:zigzag扫描 DiagCoeff:反对角线分组
+vConType = 'DiagCoeff';         %矢量的构成方式:ZigZag:zigzag扫描 DiagCoeff:反对角线分组
 % msgType = 'msgFromOrgImage';         
-slipExtract_LAB_wavelet(vConType,dtImFormat,'CMYK',0.33);
-slipExtract_LAB_wavelet(vConType,dtImFormat,'CMYK',0.7);
+slipExtract_LAB_wavelet(vConType,dtImFormat,'RGB',0.33);
+slipExtract_LAB_wavelet(vConType,dtImFormat,'RGB',0.7);
 
-vConType = 'DiagCoeff'; 
-slipExtract_LAB_wavelet(vConType,dtImFormat,'CMYK',0.33);
-slipExtract_LAB_wavelet(vConType,dtImFormat,'CMYK',0.7);
+vConType = 'ZigZag'; 
+slipExtract_LAB_wavelet(vConType,dtImFormat,'RGB',0.33);
+slipExtract_LAB_wavelet(vConType,dtImFormat,'RGB',0.7);
 
 % vConType = 'ZigZag';         %矢量的构成方式:ZigZag:zigzag扫描 DiagCoeff:反对角线分组
 % msgType = 'msgFromOrgImage';         

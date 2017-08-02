@@ -19,8 +19,11 @@ hSlidePix = 5;              %水平滑动的像素范围
 vSlidePix = 5;              %垂直滑动的像素范围
 % rowStart = 66;rowEnd = 515;%适用于580大小的图黄蓝和红图，水印区域为450*450
 % colStart = 66;colEnd = 515;
-rowStart = 26;rowEnd = 185;%使用于210*210的红色酒杯图，水印区域为160*160
-colStart = 26;colEnd = 185;
+%rowStart = 26;rowEnd = 185;%使用于210*210的红色酒杯图，水印区域为160*160
+%colStart = 26;colEnd = 185;
+
+rowStart = 56;rowEnd = 455;%使用于512*512的lena图,水印区域为400*400
+colStart = 56;colEnd = 455;
 % rowStart = 71;rowEnd = 420;%使用于490*490的红色logo图,水印区域为350*350
 % colStart = 71;colEnd = 420;
 % rowStart = 26;rowEnd = 537;%使用于567*567的黄蓝图,水印区域为512*512
@@ -28,16 +31,16 @@ colStart = 26;colEnd = 185;
 % rowStart = 24;rowEnd = 151;%使用于171*171的红logo图,水印区域为128*128
 % colStart = 24;colEnd = 151;
 
-dtImPath = ['detectImage\',colorSpace,'\',vConType,'\delta',num2str(delta),'\']; %待检测的图像的文件夹路径
+dtImPath = ['detectImage/',colorSpace,'/',vConType,'/delta',num2str(delta),'/']; %待检测的图像的文件夹路径
 
 files=dir([dtImPath,'*',dtImFormat]);
 imNum = length(files);   %图像数量
 
 %-----进行水印提取----------------------------------------------------------
 %读取原始水印信息
-msgRandPath= strcat('Input\msg\Random\'); 
+msgRandPath= strcat('Input/msg/Random/'); 
 emMsgwA= readMsgFromMsgFile(msgRandPath,strcat('msg.txt'),msgLen);
-msgOriPath = strcat('Input\msg\msgFromOrgImageBy',vConType,'\'); 
+msgOriPath = strcat('Input/msg/msgFromOrgImageBy',vConType,'/'); 
 emMsgwH = readMsgFromMsgFile(msgOriPath,strcat('msg_wH_delta',num2str(delta),'.txt'),msgLen);
 emMsgwV = readMsgFromMsgFile(msgOriPath,strcat('msg_wV_delta',num2str(delta),'.txt'),msgLen);
 emMsgwD = readMsgFromMsgFile(msgOriPath,strcat('msg_wD_delta',num2str(delta),'.txt'),msgLen);
@@ -66,12 +69,13 @@ for n = 1:imNum
     dtImData = imread([dtImPath,files(n).name]);
     
      % CMYK --> Lab
-    cform1 = makecform('cmyk2srgb'); % cmyk转srgb
-    rgb = applycform(dtImData,cform1);
-    cform2 = makecform('srgb2lab'); % srgb转lab
-    dtImData = applycform(rgb,cform2); 
-   
+    %cform1 = makecform('cmyk2srgb'); % cmyk转srgb
+    %rgb = applycform(dtImData,cform1);
+    %cform2 = makecform('srgb2lab'); % srgb转lab
+    %dtImData = applycform(rgb,cform2); 
     
+    % RGB --> Lab
+    dtImData = rgb2lab(dtImData);
    
     %滑动获取待检测图像的嵌入水印的区域,并进行水印提取
      

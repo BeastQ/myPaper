@@ -12,16 +12,16 @@ msgType = 'msgFromOrgImage';    %水印信息来源:allOnes:全1 allZeros:全0
                                 %alternate:01交替 random:01随机 msgFromOrgImage:来源于载体
 %----设置相关参数-----------------------------------------------------------
 if strcmp(msgType,'msgFromOrgImage') == 1%保存水印信息的文件所在文件夹的路径
-    msgPath = strcat('Input\msg\',msgType,'By',vConType,'\'); 
+    msgPath = strcat('Input/msg/',msgType,'By',vConType,'/'); 
 else
-    msgPath = strcat('Input\msg\',msgType,'\');
+    msgPath = strcat('Input/msg/',msgType,'/');
 end
 msgLen= 128;                       %设置需读取的水印信息的长度
 imNum = 1;                         %图像的数量
-wmImPath = strcat('Output\wmImage\RGB\',vConType,'\',msgType,'\');%输出的水印图像保存的文件夹路径
+wmImPath = strcat('Output/wmImage/RGB/',vConType,'/',msgType,'/');%输出的水印图像保存的文件夹路径
 wmImFormat = '.tif';               %输出的水印图像的格式(若为jpg格式，则此程序默认保存的图像质量为100（不压缩）；
                                    %若为tif格式，则保存的图像质量分辨率为300并且不压缩;若为其它格式，则按默认的参数保存)
-dtImPath = strcat('detectImage\RGB\',vConType,'\',msgType,'\');   %待检测的图像的文件夹路径
+dtImPath = strcat('detectImage/RGB/',vConType,'/',msgType,'/');   %待检测的图像的文件夹路径
 dtImFormat = '.jpg';                   %待检测的图像的格式
 bitdepth = 8;vlen = 32;p = 2.0;delta = 0.33;%图像的每通道的位深度，用作嵌入1bit水印的每个子向量的长度，lp-norm的阶，量化步长
 rowStart = 66;rowEnd = 515;

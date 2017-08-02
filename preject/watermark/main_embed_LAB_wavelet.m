@@ -8,47 +8,52 @@
 % --------------------------------------------------------------------------------------------------------------
 clear all;close all;clc;
 %--------设置相关参数--------------------------------------------------------------------------------------------
-vConType = 'DiagCoeff';  %  % 'ZigZag';      %矢量的构成方式:ZigZag:zigzag扫描 DiagCoeff:反对角线分组
+vConType = 'ZigZag';  %  % 'ZigZag';      %矢量的构成方式:ZigZag:zigzag扫描 DiagCoeff:反对角线分组
 
-colorSpace='CMYK';%'RGB'; %色彩空间
+colorSpace='RGB';%'RGB'; %色彩空间
 
-msgOriPath = strcat('Input\msg\msgFromOrgImageBy',vConType,'\'); 
-msgRandPath= strcat('Input\msg\Random\'); 
-
+msgOriPath = strcat('Input/msg/msgFromOrgImageBy',vConType,'/'); 
+msgRandPath= strcat('Input/msg/Random/'); 
 
 % orgImPath = 'Input\orgImage\RGB\'; %原始图像所在文件夹的路径
-orgImPath = ['Input\orgImage\',colorSpace,'\']; %原始图像所在文件夹的路径
-orgImFormat = '.tif';              %原始图像的格式
+orgImPath = ['Input/orgImage/',colorSpace,'/']; %原始图像所在文件夹的路径
+orgImFormat = '.tiff';              %原始图像的格式
 % wmImPath = strcat('Output\wmImage\RGB\',vConType,'\',msgType,'\');%输出的水印图像保存的文件夹路径
 msgLen= 128;                       %设置需读取的水印信息的长度
 imgfiles=dir([orgImPath,'*',orgImFormat]);
 imNum = length(imgfiles);                         %图像的数量
                                    
-bitdepth = 8;vlen = 32;p = 2.0;delta = 0.7;%图像的每通道的位深度，用作嵌入1bit水印的每个子向量的长度，lp-norm的阶，量化步长
+bitdepth = 8;vlen = 32;p = 2.0;delta = 0.33;%图像的每通道的位深度，用作嵌入1bit水印的每个子向量的长度，lp-norm的阶，量化步长
 sf = 0.99;                          %由于该图像每通道大概有60%的值是为255的,所以对图像每通道的值进行缩放
 % rowStart = 66;rowEnd = 515;%适用于580大小的图黄蓝和红图，水印区域为450*450
 % colStart = 66;colEnd = 515;
 % rowStart = 26;rowEnd = 185;%使用于210*210的红色酒杯图，水印区域为160*160
 % colStart = 26;colEnd = 185;
-rowStart = 71;rowEnd = 420;%使用于490*490的红色logo图,水印区域为350*350
-colStart = 71;colEnd = 420;
+%rowStart = 71;rowEnd = 420;%使用于490*490的红色logo图,水印区域为350*350
+%colStart = 71;colEnd = 420;
+rowStart = 56;rowEnd = 455;%使用于512*512的lena图,水印区域为400*400
+colStart = 56;colEnd = 455;
 % rowStart = 26;rowEnd = 537;%使用于567*567的黄蓝图,水印区域为512*512
 % colStart = 26;colEnd = 537;
 % rowStart = 24;rowEnd = 151;%使用于171*171的红logo图,水印区域为128*128
 % colStart = 24;colEnd = 151;
 
-wmImPath = ['Output\wmImage\',colorSpace,'\',vConType,'\delta',num2str(delta),'\'];%输出的水印图像保存的文件夹路径
-wmImFormat = '.tif';               %输出的水印图像的格式(若为jpg格式，则此程序默认保存的图像质量为100（不压缩）；
+wmImPath = ['Output/wmImage/',colorSpace,'/',vConType,'/delta',num2str(delta),'/'];%输出的水印图像保存的文件夹路径
+wmImFormat = '.tiff';               %输出的水印图像的格式(若为jpg格式，则此程序默认保存的图像质量为100（不压缩）；
                                    %若为tif格式，则保存的图像质量分辨率为300并且不压缩;若为其它格式，则按默认的参数保存)
 
 %------进行水印嵌入--------------------------------------
 for imName = 1:imNum
     orgImData = imread([orgImPath,imgfiles(imName).name]);%读取原始图像数据
      % CMYK --> Lab
-    cform1 = makecform('cmyk2srgb'); % cmyk转srgb
-    rgb = applycform(orgImData,cform1);
-    cform2 = makecform('srgb2lab'); % srgb转lab
-    orgImData = applycform(rgb,cform2); 
+    %cform1 = makecform('cmyk2srgb'); % cmyk转srgb
+    %rgb = applycform(orgImData,cform1);
+    %cform2 = makecform('srgb2lab'); % srgb转lab
+    %orgImData = applycform(rgb,cform2); 
+    
+    % RGB --> Lab
+    cform1 = makecform('srgb2lab'); % srgb转lab
+    orgImData = applycform(orgImData,cform1);
     
 %     orgImData = orgImData * sf;%对原始图像的颜色值进行缩放,缩放因子为sf
     [m,n,t] = size(orgImData);  
@@ -94,29 +99,29 @@ for imName = 1:imNum
        end
     
 %------保存水印图像---------------------------------------------------------
-% Lab --> CMYK
+% Lab --> RGB/CMYK
 cform3 = makecform('lab2srgb');
 stg = applycform(wmImData,cform3); 
-cform4 = makecform('srgb2cmyk');
-wmImData = applycform(stg,cform4);
+%cform4 = makecform('srgb2cmyk');
+%wmImData = applycform(stg,cform4);
 
-    wmImData = uint8(wmImData);
+    stg = uint8(stg);
 %     wmImDataBorder = addBorder(wmImData,'RGB',5);
-    wmImDataBorder = addBorder(wmImData,colorSpace,5);
+    wmImDataBorder = addBorder(stg,colorSpace,5);
     wmImDataBorderSize2 = imresize(wmImDataBorder,2,'bicubic');
     if ~exist(wmImPath) %#ok<EXIST>
         mkdir(wmImPath);
     end
     if strcmp(wmImFormat,'.jpg') == 1
-        imwrite(wmImData,[wmImPath,'delta',num2str(delta),'_',imgfiles(imName).name,wmImFormat],'quality',100);
+        imwrite(stg,[wmImPath,'delta',num2str(delta),'_',imgfiles(imName).name,wmImFormat],'quality',100);
         imwrite(wmImDataBorder,[wmImPath,'delta',num2str(delta),imgfiles(imName).name,'_Border_',wmImFormat],'quality',100);%保存加有黑色边框的图像(便于打印扫描后裁剪)
         imwrite(wmImDataBorderSize2,[wmImPath,'delta',num2str(delta),imgfiles(imName).name,'_BorderSize2_',wmImFormat],'quality',100);%保存加有黑色边框的图像(便于打印扫描后裁剪)
-    elseif strcmp(wmImFormat,'.tif') == 1
-        imwrite(wmImData,[wmImPath,'delta',num2str(delta),'_',imgfiles(imName).name],'Resolution',300,'Compression','none');
+    elseif strcmp(wmImFormat,'.tiff') == 1
+        imwrite(stg,[wmImPath,'delta',num2str(delta),'_',imgfiles(imName).name],'Resolution',300,'Compression','none');
         imwrite(wmImDataBorder,[wmImPath,'delta',num2str(delta),'_Border_',imgfiles(imName).name],'Resolution',300,'Compression','lzw');
         imwrite(wmImDataBorderSize2,[wmImPath,'delta',num2str(delta),'_Border2_',imgfiles(imName).name],'Resolution',300,'Compression','lzw');
     else
-        imwrite(wmImData,[wmImPath,'delta',num2str(delta),'_',imgfiles(imName).name]);
+        imwrite(stg,[wmImPath,'delta',num2str(delta),'_',imgfiles(imName).name]);
         imwrite(wmImDataBorder,[wmImPath,'delta',num2str(delta),'_Border_',imgfiles(imName).name]);
         imwrite(wmImDataBorderSize2,[wmImPath,'delta',num2str(delta),'_Border2_',imgfiles(imName).name]);
     end
