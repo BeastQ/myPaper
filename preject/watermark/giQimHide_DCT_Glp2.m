@@ -25,6 +25,7 @@ end
 if len > N
     emMsg = emMsg(1:N);
 end
+%”–Œ Ã‚
 Dct = dct2(target);
 
 %call function to get vector that will be used to hide information.
